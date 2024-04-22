@@ -35,7 +35,8 @@ Alembic is a design toolkit for [Open Lab](https://openlab.ncl.ac.uk) to build m
 │
 ├── _includes           - Templates to use for rendering
 │   ├── home.njk        - A layout for the homepage with a hero and content
-│   └── html.njk        - A generic layout for HTML pages
+│   ├── html.njk        - A generic layout for HTML pages
+│   └── page.njk        - A layout that you can apply to a markdown file
 │
 ├── assets              - A folder of static assets that are copied in
 │   ├── hero.jpg        - The hero image on the home page
