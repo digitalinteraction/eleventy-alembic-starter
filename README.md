@@ -53,9 +53,9 @@ Alembic is a design toolkit for [Open Lab](https://openlab.ncl.ac.uk) to build m
 
 ## Get started
 
-Fork this repo on GitHub and start hacking away.
-First, clone your new repository to your local machine and install the NPM dependencies.
-Then you can run the `start` and `build` scripts.
+Use the template on [GitHub](https://github.com/digitalinteraction/eleventy-alembic-starter) to start hacking away.
+First, clone your new repository locally and install the NPM dependencies.
+Then you can run the `start` and `build` scripts to start editing the webiste.
 
 ```sh
 # cd to/this/folder

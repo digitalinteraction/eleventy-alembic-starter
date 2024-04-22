@@ -1,11 +1,19 @@
 {
   "primary": [
-    { "text": "Home", "href": "#home" },
-    { "text": "About", "href": "#about" },
-    { "text": "Contact", "href": "#contact" }
+    { "text": "Home", "href": "/#home" },
+    { "text": "About", "href": "/#about" },
+    { "text": "Contact", "href": "/#contact" },
+    {
+      "text": "GitHub",
+      "href": "https://github.com/digitalinteraction/eleventy-alembic-starter"
+    }
   ],
   "secondary": [
     { "text": "Template", "href": "/template/" },
+    {
+      "text": "GitHub",
+      "href": "https://github.com/digitalinteraction/eleventy-alembic-starter"
+    },
     { "text": "Eleventy", "href": "https://11ty.dev/docs/" },
     { "text": "Alembic", "href": "https://alembic.openlab.dev" }
   ]
