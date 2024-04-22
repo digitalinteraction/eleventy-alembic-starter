@@ -19,6 +19,7 @@ Alembic is a design toolkit for [Open Lab](https://openlab.ncl.ac.uk) to build m
 - Static assets that are copied into the site
 - An example GitHub CI/CD to build & deploy the site
 - Optional formatting with [prettier](https://prettier.io)
+- Pulls in a font from [fonts.openlab.dev](https://fonts.openlab.dev)
 
 ## Project structure
 
