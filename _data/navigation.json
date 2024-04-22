@@ -1,0 +1,12 @@
+{
+  "primary": [
+    { "text": "Home", "href": "#home" },
+    { "text": "About", "href": "#about" },
+    { "text": "Contact", "href": "#contact" }
+  ],
+  "secondary": [
+    { "text": "Template", "href": "/template/" },
+    { "text": "Eleventy", "href": "https://11ty.dev/docs/" },
+    { "text": "Alembic", "href": "https://alembic.openlab.dev" }
+  ]
+}

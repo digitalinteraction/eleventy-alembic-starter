@@ -1,0 +1,7 @@
+#
+# File to exclude from git source control
+#
+
+_site
+node_modules
+.DS_Store

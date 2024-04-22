@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "name": "eleventy-alembic-starter",
+  "scripts": {
+    "build": "npx eleventy",
+    "start": "npx eleventy --serve"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1",
+    "@openlab/alembic": "^0.3.3",
+    "markdown-it-anchor": "^8.6.7",
+    "prettier": "^3.2.5"
+  },
+  "prettier": {}
+}

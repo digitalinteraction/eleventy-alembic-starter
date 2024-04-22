@@ -1,0 +1,18 @@
+---
+layout: html.njk
+---
+
+<div class="hero">
+  <img src="/assets/hero.jpg" class="hero-background" />
+  <div class="hero-body">
+    <center-layout gutters="s-1">
+      <p>Quickly get started with Eleventy and Alembic</p>
+    </center-layout>
+  </div>
+</div>
+
+<main class="siteMain" id="home">
+  <center-layout space="s0" gutters="s-1" class="flow">
+    {{ content | safe }}
+  </center-layout>
+</main>

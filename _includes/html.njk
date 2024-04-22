@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+  <head>
+    <title>{{ site.title }}</title>
+    <meta charset="utf8" />
+    <meta name="viewport" content="width=device-width" />
+    <!-- @openlab/alembic inject-css -->
+    <link rel="stylesheet" href="https://fonts.openlab.dev/inter/inter.css" />
+    <link rel="stylesheet" href="/assets/style.css" />
+  </head>
+  <body>
+    <header class="siteHeader">
+      <a class="siteHeader-brand" href="/" >{{ site.title }}</a>
+      <nav class="nav">
+        <ul role="list">
+          {% for item in navigation.primary %}
+          <li><a href="{{ item.href }}">{{ item.text }}</a></li>
+          {% endfor %}
+        </ul>
+      </nav>
+    </header>
+
+    {{ content | safe }}
+
+    <footer class="siteFooter">
+      {{ site.title }}
+      &mdash;
+      <nav class="nav">
+        <ul role="list">
+          {% for item in navigation.secondary %}
+          <li><a href="{{ item.href }}">{{ item.text }}</a></li>
+          {% endfor %}
+        </ul>
+      </nav>
+    </footer>
+    <!-- @openlab/alembic inject-js -->
+  </body>
+</html>
