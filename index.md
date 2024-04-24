@@ -2,7 +2,7 @@
 layout: home.njk
 ---
 
-> This is dummy content to demonstrate this [template](/template/)
+> This is dummy content to demonstrate this [template](https://github.com/digitalinteraction/eleventy-alembic-starter)
 
 # Title
 
